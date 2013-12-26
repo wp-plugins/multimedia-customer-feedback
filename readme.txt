@@ -1,6 +1,6 @@
 === Multimedia Customer Feedback ===
 Contributors: Grabimo
-Tags: Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial
+Tags: Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Contact us
 Requires at least: 3.0.1
 Tested up to: 3.2.1
 Stable tag: 1.0.1
@@ -42,18 +42,20 @@ priority.
 		
 = Special Features =
 
-* Video customer feedback/testimonial/experience/satisfaction
-* Audio customer feedback/testimonial/experience/satisfaction
-* Photo customer feedback/testimonial/experience/satisfaction
-* Text customer feedback/testimonial/experience/satisfaction
+* Video customer feedback/testimonial/experience/satisfaction/survey
+* Audio customer feedback/testimonial/experience/satisfaction/survey
+* Photo customer feedback/testimonial/experience/satisfaction/survey
+* Text customer feedback/testimonial/experience/satisfaction/survey
 * Mobile device friendly, tested on iOS and Andriod 
 * No mobile app installation required for multimedia capture
 * HTML5 doctype
 * Visual presentation never leave your webpage
 * Shortcode on WordPress-based sites or short URL on anywhere	
 * Watermark protection of digital contents
-* PayPal payments, fast and secure
 * Instant notification and real-time transaction processing	
+* Single button nicely working with contact us or customer survey form or customer email communication
+* Easy customer engagement and customer retentation with reward through social media and from anywhere 
+* PayPal payments, fast and secure		
 		
 == Installation ==
 
