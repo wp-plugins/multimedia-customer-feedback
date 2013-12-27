@@ -3,7 +3,7 @@ Contributors: Grabimo
 Tags: Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Contact us
 Requires at least: 3.0.1
 Tested up to: 3.2.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,8 +16,7 @@ Inspire your customers to provide feedback in video, audio, photo, and text form
 Grabimo is a tool that facilitates business gathering customer
 feedback in multimedia formats: text, photo, audio, and video. The tool
 makes it easy for business to appreciate customer's time and effort
-instantly, safely, and simply. It is a both PC and mobile friendly off-the-shelf
-solution, offering feedback campaign setup, customer experience
+instantly, safely, and simply. It is a both PC and mobile friendly out-of-the-box solution, offering feedback campaign setup, customer experience
 capture, digital content protection, online money payment, and social
 media sharing. With only a few clicks, business has the powerful tool
 ready. It dramatically increases customer engagement. Customers never
@@ -54,7 +53,7 @@ priority.
 * Watermark protection of digital contents
 * Instant notification and real-time transaction processing	
 * Single button nicely working with contact us or customer survey form or customer email communication
-* Easy customer engagement and customer retentation with reward through social media and from anywhere 
+* Easy customer engagement and customer retention with reward through social media and from anywhere 
 * PayPal payments, fast and secure		
 		
 == Installation ==
