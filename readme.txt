@@ -1,6 +1,6 @@
 === Multimedia Customer Feedback ===
 Contributors: Grabimo
-Tags: Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box
+Tags: Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
 Requires at least: 3.0.1
 Tested up to: 3.2.1
 Stable tag: 1.0.3
@@ -19,7 +19,7 @@ makes it easy for business to appreciate customer's time and effort
 instantly, safely, and simply. It is a both PC and mobile friendly out-of-the-box solution, offering feedback campaign setup, customer experience
 capture, digital content protection, online money payment, and social
 media sharing. With only a few clicks, business has the powerful comment box ready. It dramatically increases customer engagement. Customers never
-ignore request to leave a comment.
+ignore request to leave a comment or suggestion.
 
 As a business owner, you get candid and objective feedback from
 your customers. You have positive audio visual endorsements to show
@@ -39,7 +39,7 @@ priority.
 		
 = Special Features =
 
-* Video customer feedback/testimonial/experience/satisfaction/survey
+* Video customer feedback/testimonial/experience/satisfaction/survey/suggestion
 * Audio customer feedback/testimonial/experience/satisfaction/survey
 * Photo customer feedback/testimonial/experience/satisfaction/survey
 * Text customer feedback/testimonial/experience/satisfaction/survey
