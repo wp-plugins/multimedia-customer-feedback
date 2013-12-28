@@ -1,9 +1,9 @@
 === Multimedia Customer Feedback ===
 Contributors: Grabimo
-Tags: Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Contact us
+Tags: Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box
 Requires at least: 3.0.1
 Tested up to: 3.2.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,27 +11,25 @@ Inspire your customers to provide feedback in video, audio, photo, and text form
 
 == Description ==
 
-**Visit the demo site at [http://demo.grabimo.com](http://demo.grabimo.com)**
+**Visit the demo site:[http://demo.grabimo.com](http://demo.grabimo.com)**
 
 Grabimo is a tool that facilitates business gathering customer
 feedback in multimedia formats: text, photo, audio, and video. The tool
 makes it easy for business to appreciate customer's time and effort
 instantly, safely, and simply. It is a both PC and mobile friendly out-of-the-box solution, offering feedback campaign setup, customer experience
 capture, digital content protection, online money payment, and social
-media sharing. With only a few clicks, business has the powerful tool
-ready. It dramatically increases customer engagement. Customers never
-ignore request for feedback, regardless of business category and size,
-either mobile app, or home and child care, or weight loss product.
+media sharing. With only a few clicks, business has the powerful comment box ready. It dramatically increases customer engagement. Customers never
+ignore request to leave a comment.
 
 As a business owner, you get candid and objective feedback from
 your customers. You have positive audio visual endorsements to show
-off your business online and offline. You use criticism to improve
+off your business online and offline. You use critiques to improve
 product design and service quality. You have objective evidence to
 evaluate operation performance of individual or organization. You have
 the opportunity to follow up nicely with customers, resulting in
 long-term customer relationship.
 
-Collecting feedback is one of the best ways to help retain your
+Collecting feedback is one of total customer satisfaction tools to help retain your
 existing customers, find customer pain points to make improvements.
 The positive feedback is the most powerful tool to generate sales
 leads. Every business should treat collecting feedback as their first
@@ -96,6 +94,9 @@ Or simply email us at: admin@grabimo.com
 5. Your customer can upload photo files
 
 == Changelog ==
+= 1.0.3 =
+* Add a setting allowing users to adjust feedback button width 
+
 = 1.0.0 =
 * Initial release
 
