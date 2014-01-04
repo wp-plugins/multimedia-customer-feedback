@@ -11,7 +11,7 @@ Inspire your customers to provide feedback in video, audio, photo, and text form
 
 == Description ==
 
-**Visit the demo site:[http://demo.grabimo.com](http://demo.grabimo.com)**
+**Visit the demo site: [http://demo.grabimo.com](http://demo.grabimo.com)**
 
 Grabimo is a tool that facilitates business gathering customer
 feedback in multimedia formats: text, photo, audio, and video. The tool
