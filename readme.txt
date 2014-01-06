@@ -1,6 +1,6 @@
 === Multimedia Customer Feedback ===
 Contributors: Grabimo
-Tags: Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
+Tags: Customer Review, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
 Requires at least: 3.0.1
 Tested up to: 3.2.1
 Stable tag: 1.0.3
@@ -18,8 +18,8 @@ feedback in multimedia formats: text, photo, audio, and video. The tool
 makes it easy for business to appreciate customer's time and effort
 instantly, safely, and simply. It is a both PC and mobile friendly out-of-the-box solution, offering feedback campaign setup, customer experience
 capture, digital content protection, online money payment, and social
-media sharing. With only a few clicks, business has the powerful comment box ready. It dramatically increases customer engagement. Customers never
-ignore request to leave a comment or suggestion.
+media sharing. With only a few clicks, business has the powerful review box ready. It dramatically increases customer engagement. Customers never
+ignore request to leave a comment or suggestion or review.
 
 As a business owner, you get candid and objective feedback from
 your customers. You have positive audio visual endorsements to show
@@ -29,7 +29,7 @@ evaluate operation performance of individual or organization. You have
 the opportunity to follow up nicely with customers, resulting in
 long-term customer relationship.
 
-Collecting feedback is one of total customer satisfaction tools to help retain your
+Collecting feedback is one of total customer satisfaction means to help retain your
 existing customers, find customer pain points to make improvements.
 The positive feedback is the most powerful tool to generate sales
 leads. Every business should treat collecting feedback as their first
@@ -39,11 +39,11 @@ priority.
 		
 = Special Features =
 
-* Video customer feedback/testimonial/experience/satisfaction/survey/suggestion
-* Audio customer feedback/testimonial/experience/satisfaction/survey
-* Photo customer feedback/testimonial/experience/satisfaction/survey
-* Text customer feedback/testimonial/experience/satisfaction/survey
-* Mobile device friendly, tested on iOS and Andriod 
+* Video customer feedback/testimonial/experience/review/survey/suggestion/comment
+* Audio customer feedback/testimonial/experience/review/survey/suggestion
+* Photo customer feedback/testimonial/experience/review/survey/suggestion
+* Text customer feedback/testimonial/experience/review/survey/suggestion
+* Mobile device friendly, tested on iOS and Andriod phone and tablet 
 * No mobile app installation required for multimedia capture
 * HTML5 doctype
 * Visual presentation never leave your webpage
@@ -52,7 +52,8 @@ priority.
 * Instant notification and real-time transaction processing	
 * Single button nicely working with contact us or customer survey form or customer email communication
 * Easy customer engagement and customer retention with reward through social media and from anywhere 
-* PayPal payments, fast and secure		
+* PayPal payments, fast and secure
+* One-minute installation through WP		
 		
 == Installation ==
 

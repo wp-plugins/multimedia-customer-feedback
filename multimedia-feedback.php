@@ -12,7 +12,7 @@ Author URI: http://www.grabimo.com
 License: GPLv2 or later
 */
 
-/*  Copyright 2013  Grabimo  (email : admin@grabimo.com)
+/*  Copyright 2014  Grabimo  (email : admin@grabimo.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -40,7 +40,7 @@ function multimedia_feedback_settings() {
 		'general'
 	);
 	
-	// business alias created at http://www.grabimo.com
+	// business alias created after signup at http://www.grabimo.com
 	add_settings_field(
 		'multimedia_feedback_business_alias',
 		'Business Alias',
@@ -117,7 +117,7 @@ add_action( 'wp_enqueue_scripts', 'multimedia_feedback_files' );
 function multimedia_feedback_short_code() {
 	// retrieve business alias from the admin setting page, after registration at http://www.grabimo.com 
 	$businessAlias = get_option( 'multimedia_feedback_business_alias', 'example' );
-    $width = intval(get_option( 'multimedia_feedback_button_width', 250 ));
+	$width = intval(get_option( 'multimedia_feedback_button_width', 200 ));
 	
 	// show the feedback image button, after click it, the iframe lightbox pop up without leaving your site
 	return '<input type="image" style="width:' . $width . 'px" src="' . plugins_url( "multimedia-feedback.png" , __FILE__ ) . '" id="grabimo-feedback" onclick="grab_multimedia_feedback.startFlow(\'' . $businessAlias . '\')">';
