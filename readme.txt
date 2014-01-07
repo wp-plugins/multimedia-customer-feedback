@@ -2,7 +2,7 @@
 Contributors: Grabimo
 Tags: Customer Reviews, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
 Requires at least: 3.0.1
-Tested up to: 3.2.1
+Tested up to: 3.8.0
 Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -44,22 +44,22 @@ priority.
 * Photo customer feedback/testimonial/experience/review/survey/suggestion
 * Text customer feedback/testimonial/experience/review/survey/suggestion
 * Mobile device friendly, tested on iOS and Andriod phone and tablet 
-* No mobile app installation required for multimedia capture
-* HTML5 doctype
-* Visual presentation never leave your webpage
+* No mobile app installation required for capturing multimedia in real-time
+* HTML5 doctype, mobile and mobile ready
+* Visual presentation never leaving your webpage
 * Shortcode on WordPress-based sites or short URL on anywhere	
 * Watermark protection of digital contents
 * Instant notification and real-time transaction processing	
 * Single button nicely working with contact us or customer survey form or customer email communication
 * Easy customer engagement and customer retention with reward through social media and from anywhere 
 * PayPal payments, fast and secure
-* One-minute installation through WP		
+* One-minute installation through WordPress plugin installer
 		
 == Installation ==
 
 1. Upload the whole folder to the /wp-content/plugins/ directory.
 2. Activate the plugin using the 'Plugins' menu in your WordPress admin panel.
-3. Go 'Settings'->'General'->'Multimedia Customer Feedback' to add your business alias created at http:///www.grabimo.com 
+3. Go **Settings->General->Multimedia Customer Feedback** to add your business alias created at http:///www.grabimo.com 
 
 = Use Shortcode = 
 * on PHP file, `<?php echo do_shortcode('[grab-multimedia-feedback]'); ?>`  
