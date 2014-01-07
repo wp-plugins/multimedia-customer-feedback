@@ -1,9 +1,9 @@
 === Multimedia Customer Feedback ===
 Contributors: Grabimo
-Tags: Customer Review, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
+Tags: Customer Reviews, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
 Requires at least: 3.0.1
 Tested up to: 3.2.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ feedback in multimedia formats: text, photo, audio, and video. The tool
 makes it easy for business to appreciate customer's time and effort
 instantly, safely, and simply. It is a both PC and mobile friendly out-of-the-box solution, offering feedback campaign setup, customer experience
 capture, digital content protection, online money payment, and social
-media sharing. With only a few clicks, business has the powerful review box ready. It dramatically increases customer engagement. Customers never
+media sharing. With only a few clicks, business has the powerful comment box ready. It dramatically increases customer engagement. Customers never
 ignore request to leave a comment or suggestion or review.
 
 As a business owner, you get candid and objective feedback from
@@ -31,7 +31,7 @@ long-term customer relationship.
 
 Collecting feedback is one of total customer satisfaction means to help retain your
 existing customers, find customer pain points to make improvements.
-The positive feedback is the most powerful tool to generate sales
+The positive reviews or testimonials are the most powerful tool to generate sales
 leads. Every business should treat collecting feedback as their first
 priority.
 
@@ -59,7 +59,7 @@ priority.
 
 1. Upload the whole folder to the /wp-content/plugins/ directory.
 2. Activate the plugin using the 'Plugins' menu in your WordPress admin panel.
-3. Go 'Settings'->'Multimedia Customer Feedback' to add your business alias created at http:///www.grabimo.com 
+3. Go 'Settings'->'General'->'Multimedia Customer Feedback' to add your business alias created at http:///www.grabimo.com 
 
 = Use Shortcode = 
 * on PHP file, `<?php echo do_shortcode('[grab-multimedia-feedback]'); ?>`  

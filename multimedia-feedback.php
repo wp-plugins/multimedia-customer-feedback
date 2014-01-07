@@ -6,7 +6,7 @@
 Plugin Name: Multimedia Customer Feedback
 Plugin URI: http://downloads.wordpress.org/plugin/multimedia-customer-feedback.zip
 Description: Inspire your customers to provide candid feedback in video, audio, photo, and text formats. Make it easy for business to reward customers for sharing experience, increase customer satisfaction, and improve product or service quality. 
-Version: 1.0.3
+Version: 1.0.4
 Author: Grabimo
 Author URI: http://www.grabimo.com
 License: GPLv2 or later
@@ -85,8 +85,8 @@ function multimedia_feedback_setting_field_alias_callback_function() {
 // field callback function
 function multimedia_feedback_setting_field_width_callback_function() {
 	// create the setting field for multimedia customer feedback
-	$value = get_option( 'multimedia_feedback_button_width', 250 );
-	$output = '<input type="text" id="multimedia_feedback_button_width" name="multimedia_feedback_button_width" value="' . $value . '" /> Set the width (pixels) of the feedback button, e.g., 250';
+	$value = get_option( 'multimedia_feedback_button_width', 200 );
+	$output = '<input type="text" id="multimedia_feedback_button_width" name="multimedia_feedback_button_width" value="' . $value . '" /> Set the width (pixels) of the feedback button, e.g., 200';
 	
 	echo $output;
 }
