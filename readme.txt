@@ -10,8 +10,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Inspire your customers to provide feedback in video, audio, photo, and text format. Make it easy for you to reward customers for sharing experience.
 
 == Description ==
+**IFrame embed demo: [http://demo.grabimo.com/?page_id=2#grabimo-feedback]**
 
-**Visit the demo site: [http://demo.grabimo.com](http://demo.grabimo.com)**
+**Popup lightbox demo : [http://demo.grabimo.com](http://demo.grabimo.com)**
 
 Grabimo is a tool that facilitates business gathering customer
 feedback in multimedia formats: text, photo, audio, and video. The tool

@@ -116,7 +116,7 @@ function multimedia_feedback_setting_field_alias_callback_function() {
 function multimedia_feedback_setting_field_interface_callback_function() {
 	// get default UI option
 	$value = get_option( 'multimedia_feedback_interface', 'button' );
-	$output = '<input name="multimedia_feedback_interface" type="radio" value="button" ' . checked('button', $value, false) . '>Button with popup lightbox&nbsp;&nbsp;&nbsp;<input name="multimedia_feedback_interface" type="radio" value="embed" ' . checked( 'embed', $value, false) . '>Embed with inline frame';
+	$output = '<input name="multimedia_feedback_interface" type="radio" value="button" ' . checked('button', $value, false) . '>Button with popup lightbox&nbsp;&nbsp;&nbsp;<input name="multimedia_feedback_interface" type="radio" value="embed" ' . checked( 'embed', $value, false) . '>IFrame embed';
 	
 	echo $output;
 }
