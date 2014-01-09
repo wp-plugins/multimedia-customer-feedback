@@ -1,9 +1,9 @@
 === Multimedia Customer Feedback ===
 Contributors: Grabimo
 Tags: Customer Reviews, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
-Requires at least: 3.0.1
-Tested up to: 3.8.0
-Stable tag: 1.0.4
+Requires at least: 3.0
+Tested up to: 3.8
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,11 +59,10 @@ priority.
 
 1. Upload the whole folder to the /wp-content/plugins/ directory.
 2. Activate the plugin using the 'Plugins' menu in your WordPress admin panel.
-3. Go **Settings->General->Multimedia Customer Feedback** to add your business alias created at http:///www.grabimo.com 
-
-= Use Shortcode = 
-* on PHP file, `<?php echo do_shortcode('[grab-multimedia-feedback]'); ?>`  
-* on HTML file, [grab-multimedia-feedback]  
+3. Go **Settings->Feedback** to add your business alias created at http:///www.grabimo.com 
+4. Add Shortcode
+  a) on PHP file, `<?php echo do_shortcode('[grab-multimedia-feedback]'); ?>`  
+  b) or on HTML file, [grab-multimedia-feedback]  
 
 == Frequently Asked Questions ==
 
@@ -95,8 +94,12 @@ Or simply email us at: admin@grabimo.com
 5. Your customer can upload photo files
 
 == Changelog ==
+= 1.1.0 =
+* Created Settings submenu
+* Supported both lightbox and inline frame  
+
 = 1.0.3 =
-* Add a setting allowing users to adjust feedback button width 
+* Added a setting allowing users to adjust feedback button width 
 
 = 1.0.0 =
 * Initial release
