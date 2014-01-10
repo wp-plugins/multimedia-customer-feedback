@@ -55,15 +55,17 @@ priority.
 * Easy customer engagement and customer retention with reward through social media and from anywhere 
 * PayPal payments, fast and secure
 * One-minute installation through WordPress plugin installer
+* Support both popup lightbox
+* Support iframe embedding
 		
 == Installation ==
 
 1. Upload the whole folder to the /wp-content/plugins/ directory.
 2. Activate the plugin using the 'Plugins' menu in your WordPress admin panel.
 3. Go **Settings->Feedback** to add your business alias created at http:///www.grabimo.com 
-4. Add Shortcode
-  a) on PHP file, `<?php echo do_shortcode('[grab-multimedia-feedback]'); ?>`  
-  b) or on HTML file, [grab-multimedia-feedback]  
+4. Add Shortcode: 
+  * either to PHP file, `<?php echo do_shortcode('[grab-multimedia-feedback]'); ?>`  
+  * or to HTML file, [grab-multimedia-feedback]  
 
 == Frequently Asked Questions ==
 
@@ -93,6 +95,7 @@ Or simply email us at: admin@grabimo.com
 3. Your customer can upload his/her voice files or simply record voice with built-in mic
 4. Your customer can write feedback easily in plain text too
 5. Your customer can upload photo files
+6. Embed iframe on your page
 
 == Changelog ==
 = 1.1.0 =
