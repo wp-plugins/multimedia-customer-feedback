@@ -3,7 +3,7 @@ Contributors: Grabimo
 Tags: Customer Reviews, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
 Requires at least: 3.0
 Tested up to: 3.8
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,10 +53,14 @@ priority.
 * Instant notification and real-time transaction processing	
 * Single button nicely working with contact us or customer survey form or customer email communication
 * Easy customer engagement and customer retention with reward through social media and from anywhere 
-* PayPal payments, fast and secure
+* PayPal payments, fast, and secure
 * One-minute installation through WordPress plugin installer
 * Support both popup lightbox
 * Support iframe embedding
+
+= Shortcode =
+
+[grab-multimedia-feedback]
 		
 == Installation ==
 
@@ -64,8 +68,8 @@ priority.
 2. Activate the plugin using the 'Plugins' menu in your WordPress admin panel.
 3. Go **Settings->Feedback** to add your business alias created at http:///www.grabimo.com 
 4. Add Shortcode: 
-  * either to PHP file, `<?php echo do_shortcode('[grab-multimedia-feedback]'); ?>`  
-  * or to HTML file, [grab-multimedia-feedback]  
+  * if PHP file, `<?php echo do_shortcode('[grab-multimedia-feedback]'); ?>`  
+  * if HTML file, [grab-multimedia-feedback]  
 
 == Frequently Asked Questions ==
 
