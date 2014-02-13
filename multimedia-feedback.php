@@ -6,7 +6,7 @@
 Plugin Name: Multimedia Customer Feedback
 Plugin URI: http://downloads.wordpress.org/plugin/multimedia-customer-feedback.zip
 Description: Inspire your customers to provide candid feedback in video, audio, photo, and text formats. Make it easy for business to reward customers for sharing experience, increase customer satisfaction, and improve product or service quality. 
-Version: 1.1.3
+Version: 1.1.4
 Author: Grabimo
 Author URI: http://www.grabimo.com
 License: GPLv2 or later
@@ -176,7 +176,7 @@ function multimedia_feedback_admin_action_links($links, $file) {
 	}
 	
 	if ($file == $my_plugin) {
-		$settings_link = '<a href="'. get_admin_url(null, 'options-general.php?page=multimedia_feedback_settings_page') .'">Settings</a>';
+		$settings_link = '<img src="' . plugins_url( 'grabimo16x16.png', __FILE__ ) . '"/>&nbsp;<a href="'. get_admin_url(null, 'options-general.php?page=multimedia_feedback_settings_page') .'">Settings</a>';
 		array_unshift($links, $settings_link);
 	}
 	
