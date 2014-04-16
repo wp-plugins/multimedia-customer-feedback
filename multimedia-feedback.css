@@ -8,6 +8,8 @@
 #GrabimoFrame .panel {
 	z-index: 30003;
 	position: relative;
+	border: 0;
+	background-color: transparent;
 }
 
 #GrabimoFrame .panel iframe {
