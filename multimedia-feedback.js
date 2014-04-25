@@ -14,10 +14,10 @@ LETSCAN.apps = LETSCAN.apps || {};
 			setTrigger : function(el) {
 				that._setTrigger(el);
 			},
-			startFlow : function(alias) {
+			startFlow : function(alias, font) {
 				var win = that._render();
-				
-				var url = "http://www.grabimo.com/app/addGig.html?alias=" + alias; 
+				font = encodeURIComponent(font || '');
+				var url = "http://www.grabimo.com/app/addGig.html?alias=" + alias + "&font=" + font; 
 				if (win.location) {
 					win.location = url;
 				} else {

@@ -4,9 +4,9 @@
  */
 /*
 Plugin Name: Multimedia Customer Feedback
-Plugin URI: http://downloads.wordpress.org/plugin/multimedia-customer-feedback.zip
+Plugin URI: http://www.grabimo.com
 Description: Inspire your customers to provide candid feedback in video, audio, photo, and text formats. Make it easy for business to reward customers for sharing experience, increase customer satisfaction, and improve product or service quality. 
-Version: 1.1.6
+Version: 1.1.7
 Author: Grabimo
 Author URI: http://www.grabimo.com
 License: GPLv2 or later
@@ -33,7 +33,7 @@ License: GPLv2 or later
 add_action('admin_menu', 'multimedia_feedback_menu');
 
 function multimedia_feedback_menu() {
-	add_options_page('Multimedia Customer Feedback', '<img src="' . plugins_url( 'grabimo16x16.png', __FILE__ ) . '"/>&nbsp;Feedback', 'manage_options','multimedia_feedback_settings_page', 'multimedia_feedback_settings_callback_function' );
+	add_options_page('Multimedia Customer Feedback', '<img style="position:relative;top:4px" src="' . plugins_url( 'grabimo16x16.png', __FILE__ ) . '"/>&nbsp;Feedback', 'manage_options','multimedia_feedback_settings_page', 'multimedia_feedback_settings_callback_function' );
 }
 
 function multimedia_feedback_settings_callback_function() {
@@ -176,7 +176,7 @@ function multimedia_feedback_admin_action_links($links, $file) {
 	}
 	
 	if ($file == $my_plugin) {
-		$settings_link = '<img src="' . plugins_url( 'grabimo16x16.png', __FILE__ ) . '"/>&nbsp;<a href="'. get_admin_url(null, 'options-general.php?page=multimedia_feedback_settings_page') .'">Settings</a>';
+		$settings_link = '<img style="position:relative;top:4px" src="' . plugins_url( 'grabimo16x16.png', __FILE__ ) . '"/>&nbsp;<a href="'. get_admin_url(null, 'options-general.php?page=multimedia_feedback_settings_page') .'">Settings</a>';
 		array_unshift($links, $settings_link);
 	}
 	
