@@ -1,5 +1,5 @@
 === Multimedia Customer Feedback ===
-Contributors: Grabimo
+Contributors: grabimo
 Tags: Customer Reviews, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
 Requires at least: 3.0
 Tested up to: 3.8
