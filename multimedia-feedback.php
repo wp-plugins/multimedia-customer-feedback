@@ -6,7 +6,7 @@
 Plugin Name: Multimedia Customer Feedback
 Plugin URI: http://www.grabimo.com
 Description: Inspire your customers to provide candid feedback in video, audio, photo, and text formats. Make it easy for business to reward customers for sharing experience, increase customer satisfaction, and improve product or service quality. 
-Version: 1.1.7
+Version: 1.1.8
 Author: Grabimo
 Author URI: http://www.grabimo.com
 License: GPLv2 or later
@@ -33,7 +33,7 @@ License: GPLv2 or later
 add_action('admin_menu', 'multimedia_feedback_menu');
 
 function multimedia_feedback_menu() {
-	add_options_page('Multimedia Customer Feedback', '<img style="position:relative;top:4px" src="' . plugins_url( 'grabimo16x16.png', __FILE__ ) . '"/>&nbsp;Feedback', 'manage_options','multimedia_feedback_settings_page', 'multimedia_feedback_settings_callback_function' );
+	add_options_page('Multimedia Customer Feedback', '<img style="position:relative;top:4px" src="http://developer.grabimo.com/download/grabimo16x16.png"/>&nbsp;Feedback', 'manage_options','multimedia_feedback_settings_page', 'multimedia_feedback_settings_callback_function' );
 }
 
 function multimedia_feedback_settings_callback_function() {
@@ -132,23 +132,11 @@ function multimedia_feedback_setting_field_width_callback_function() {
 
 // --- add javascrit and CSS file on webpage head ------------
 function multimedia_feedback_files() {
-	// Register the script like this for a plugin:
-	wp_register_script('multimedia-feedback-js-file', plugins_url( 'multimedia-feedback.js', __FILE__ ) );
-	// or
-	// Register the script like this for a theme:
-	wp_register_script( 'multimedia-feedback-js-file', get_template_directory_uri() . '/multimedia-feedback.js' );
-
-	// For either a plugin or a theme, you can then enqueue the script:
-	wp_enqueue_script( 'multimedia-feedback-js-file' );
+	// add Javscript
+	wp_enqueue_script( 'multimedia-feedback-js-file', 'http://developer.grabimo.com/download/mf.js' );	
 	
-	// Register the script like this for a plugin:
-	wp_register_style('multimedia-feedback-css-file', plugins_url( 'multimedia-feedback.css', __FILE__ ) );
-	// or
-	// Register the script like this for a theme:
-	wp_register_style( 'multimedia-feedback-css-file', get_template_directory_uri() . '/multimedia-feedback.css' );
-
-	// For either a plugin or a theme, you can then enqueue the script:
-	wp_enqueue_style( 'multimedia-feedback-css-file' );
+	// CSS file
+	wp_enqueue_style( 'multimedia-feedback-css-file', 'http://developer.grabimo.com/download/mf.css' );
 }
 add_action( 'wp_enqueue_scripts', 'multimedia_feedback_files' );
 
@@ -161,7 +149,7 @@ function multimedia_feedback_short_code() {
 	
 	if ('button' == $interface) {
 		// show the feedback image button, after click it, the iframe lightbox pop up without leaving your site
-		return '<input type="image" style="width:' . $width . 'px" src="' . plugins_url( "multimedia-feedback.png" , __FILE__ ) . '" id="grabimo-feedback" onclick="grab_multimedia_feedback.startFlow(\'' . $businessAlias . '\')">';
+		return '<input type="image" style="width:' . $width . 'px" src="http://developer.grabimo.com/download/multimedia-feedback.png" id="grabimo-feedback" onclick="grab_multimedia_feedback.startFlow(\'' . $businessAlias . '\')">';
 	} else {
 		return  '<iframe src="http://www.grabimo.com/app/addGig.html?alias=' . $businessAlias . '&compact" title="Multimedia feedback" scrolling="no" style="border: none; overflow: hidden; height: 518px; width: 678px; max-width: 100%"></iframe>';
 	}
@@ -176,7 +164,7 @@ function multimedia_feedback_admin_action_links($links, $file) {
 	}
 	
 	if ($file == $my_plugin) {
-		$settings_link = '<img style="position:relative;top:4px" src="' . plugins_url( 'grabimo16x16.png', __FILE__ ) . '"/>&nbsp;<a href="'. get_admin_url(null, 'options-general.php?page=multimedia_feedback_settings_page') .'">Settings</a>';
+		$settings_link = '<img style="position:relative;top:4px" src="http://developer.grabimo.com/download/grabimo16x16.png"/>&nbsp;<a href="'. get_admin_url(null, 'options-general.php?page=multimedia_feedback_settings_page') .'">Settings</a>';
 		array_unshift($links, $settings_link);
 	}
 	

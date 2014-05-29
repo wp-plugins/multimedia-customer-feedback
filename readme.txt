@@ -1,9 +1,10 @@
 === Multimedia Customer Feedback ===
 Contributors: grabimo
+Donate link: http://www.grabimo.com
 Tags: Customer Reviews, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
 Requires at least: 3.0
 Tested up to: 3.8
-Stable tag: 1.1.7
+Stable tag: 1.1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +14,9 @@ Inspire your customers to provide feedback in video, audio, photo, and text form
 **iFrame embedding demo: [http://demo.grabimo.com/?page_id=2#grabimo-feedback](http://demo.grabimo.com/?page_id=2#grabimo-feedback)**
 
 **Popup lightbox demo: [http://demo.grabimo.com/?page_id=66](http://demo.grabimo.com/?page_id=66)**
+
+1. **One-click YoutTube Upload**
+2. **Mobile friendly**
 
 Grabimo is a tool that facilitates business gathering customer
 feedback in multimedia formats: text, photo, audio, and video. The tool
