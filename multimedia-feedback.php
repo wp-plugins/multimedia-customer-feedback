@@ -6,7 +6,7 @@
 Plugin Name: Multimedia Customer Feedback
 Plugin URI: http://www.grabimo.com
 Description: Inspire your customers to provide candid feedback in video, audio, photo, and text formats. Make it easy for business to reward customers for sharing experience, increase customer satisfaction, and improve product or service quality. 
-Version: 1.1.8
+Version: 1.2.0
 Author: Grabimo
 Author URI: http://www.grabimo.com
 License: GPLv2 or later
@@ -33,7 +33,7 @@ License: GPLv2 or later
 add_action('admin_menu', 'multimedia_feedback_menu');
 
 function multimedia_feedback_menu() {
-	add_options_page('Multimedia Customer Feedback', '<img style="position:relative;top:4px" src="http://developer.grabimo.com/download/grabimo16x16.png"/>&nbsp;Feedback', 'manage_options','multimedia_feedback_settings_page', 'multimedia_feedback_settings_callback_function' );
+	add_options_page('Multimedia Customer Feedback', '<img style="position:relative;top:4px" src="//www.grabimo.com/download/grabimo16x16.png"/>&nbsp;Feedback', 'manage_options','multimedia_feedback_settings_page', 'multimedia_feedback_settings_callback_function' );
 }
 
 function multimedia_feedback_settings_callback_function() {
@@ -58,7 +58,7 @@ function multimedia_feedback_settings() {
 		'multimedia_feedback_settings_page'
 	);
 	
-	// business alias created after signup at http://www.grabimo.com
+	// business alias created after signup at https://www.grabimo.com
 	add_settings_field(
 		'multimedia_feedback_business_alias',
 		'Business Alias',
@@ -102,7 +102,7 @@ function multimedia_feedback_setting_section_callback_function() {
 function multimedia_feedback_setting_field_alias_callback_function() {
 	// create the setting field for multimedia customer feedback
 	$value = get_option( 'multimedia_feedback_business_alias', 'example' );
-	$output = '<input type="text" id="multimedia_feedback_business_alias" name="multimedia_feedback_business_alias" value="' . $value . '" /> <p class="description">To create your alias, sign up at <a href="http://www.grabimo.com">http://www.grabimo.com</a>.';
+	$output = '<input type="text" id="multimedia_feedback_business_alias" name="multimedia_feedback_business_alias" value="' . $value . '" /> <p class="description">To create your alias, sign up at <a href="https://www.grabimo.com">https://www.grabimo.com</a>.';
 	if ($value == 'example') {
 		$output = $output . ' The alias, "example", is for demo only.</p>';
 	} else {
@@ -133,25 +133,25 @@ function multimedia_feedback_setting_field_width_callback_function() {
 // --- add javascrit and CSS file on webpage head ------------
 function multimedia_feedback_files() {
 	// add Javscript
-	wp_enqueue_script( 'multimedia-feedback-js-file', 'http://developer.grabimo.com/download/mf.js' );	
+	wp_enqueue_script( 'multimedia-feedback-js-file', '//www.grabimo.com/download/mf.js' );	
 	
 	// CSS file
-	wp_enqueue_style( 'multimedia-feedback-css-file', 'http://developer.grabimo.com/download/mf.css' );
+	wp_enqueue_style( 'multimedia-feedback-css-file', '//www.grabimo.com/download/mf.css' );
 }
 add_action( 'wp_enqueue_scripts', 'multimedia_feedback_files' );
 
 // --- create the short code, the Feedback button will dispay on webpage ---
 function multimedia_feedback_short_code() {
-	// retrieve business alias from the admin setting page, after registration at http://www.grabimo.com 
+	// retrieve business alias from the admin setting page, after registration at https://www.grabimo.com 
 	$businessAlias = get_option( 'multimedia_feedback_business_alias', 'example' );
 	$width = intval(get_option( 'multimedia_feedback_button_width', 200 ));
 	$interface = get_option( 'multimedia_feedback_interface', 'button' );
 	
 	if ('button' == $interface) {
 		// show the feedback image button, after click it, the iframe lightbox pop up without leaving your site
-		return '<input type="image" style="width:' . $width . 'px" src="http://developer.grabimo.com/download/multimedia-feedback.png" id="grabimo-feedback" onclick="grab_multimedia_feedback.startFlow(\'' . $businessAlias . '\')">';
+		return '<input type="image" style="width:' . $width . 'px" src="//www.grabimo.com/download/multimedia-feedback.png" id="grabimo-feedback" onclick="grab_multimedia_feedback.startFlow(\'' . $businessAlias . '\')">';
 	} else {
-		return  '<iframe src="http://www.grabimo.com/app/addGig.html?alias=' . $businessAlias . '&compact" title="Multimedia feedback" scrolling="no" style="border: none; overflow: hidden; height: 518px; width: 678px; max-width: 100%"></iframe>';
+		return  '<iframe src="//www.grabimo.com/app/addGig.html?alias=' . $businessAlias . '&compact" title="Multimedia feedback" scrolling="no" style="border: none; overflow: hidden; height: 518px; width: 678px; max-width: 100%"></iframe>';
 	}
 }
 add_shortcode('grab-multimedia-feedback', 'multimedia_feedback_short_code');   
@@ -164,7 +164,7 @@ function multimedia_feedback_admin_action_links($links, $file) {
 	}
 	
 	if ($file == $my_plugin) {
-		$settings_link = '<img style="position:relative;top:4px" src="http://developer.grabimo.com/download/grabimo16x16.png"/>&nbsp;<a href="'. get_admin_url(null, 'options-general.php?page=multimedia_feedback_settings_page') .'">Settings</a>';
+		$settings_link = '<img style="position:relative;top:4px" src="//www.grabimo.com/download/grabimo16x16.png"/>&nbsp;<a href="'. get_admin_url(null, 'options-general.php?page=multimedia_feedback_settings_page') .'">Settings</a>';
 		array_unshift($links, $settings_link);
 	}
 	
