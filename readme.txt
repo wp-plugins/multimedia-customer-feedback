@@ -1,6 +1,6 @@
 === Multimedia Customer Feedback ===
 Contributors: grabimo
-Donate link: http://www.grabimo.com
+Donate link: https://www.grabimo.com
 Tags: Customer Reviews, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
 Requires at least: 3.0
 Tested up to: 3.8
@@ -70,7 +70,7 @@ priority.
 
 1. Upload the whole folder to the /wp-content/plugins/ directory.
 2. Activate the plugin using the 'Plugins' menu in your WordPress admin panel.
-3. Go **Settings->Feedback** to add your business alias created at http:///www.grabimo.com 
+3. Go **Settings->Feedback** to add your business alias created at https://www.grabimo.com 
 4. Add Shortcode: 
   * if PHP file, `<?php echo do_shortcode('[grab-multimedia-feedback]'); ?>`  
   * if HTML file, [grab-multimedia-feedback]  
@@ -83,17 +83,17 @@ Flash, mobile and cloud computing technologies to facilitate
 collecting multimedia customer feedback. Your customers can activate
 camcorder, webcam, or sound recorder simply by clicking buttons on the
 webpage for your feedback campaign. All actions can be completed on
-the same webpage. [See Campaign Example >](http://www.grabimo.com/addGig.html?alias=example)
+the same webpage. [See Campaign Example >](https://www.grabimo.com/addGig.html?alias=example)
 
 = As a business owner, how do I pay customer feedback? =
 You customers see you feedback campaign and submit their experience in
 multimedia format. Grabmio will email you about the submission. With
 the PayPal&trade; payments, you can pay with your credit cards or
-signature debit cards, [See Example >](http://www.grabimo.com/bizGig.html?gigId=178125178667003)
+signature debit cards, [See Example >](https://www.grabimo.com/bizGig.html?gigId=178125178667003)
 
 == Support ==
 
-Contact us at http://grabimo.com/ContactUs.html
+Contact us at https://www.grabimo.com/ContactUs.html
 Or simply email us at: admin@grabimo.com
 
 == Screenshots ==
