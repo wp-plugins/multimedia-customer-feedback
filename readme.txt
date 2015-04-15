@@ -3,15 +3,15 @@ Contributors: grabimo
 Donate link: https://www.grabimo.com
 Tags: Customer Reviews, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
 Requires at least: 3.0
-Tested up to: 3.8
-Stable tag: 1.2.0
+Tested up to: 4.1.1
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Inspire your customers to provide feedback in video, audio, photo, and text format. Make it easy for you to reward customers for sharing experience.
 
 == Description ==
-**iFrame embedding demo: [http://demo.grabimo.com/?page_id=2#grabimo-feedback](http://demo.grabimo.com/?page_id=2#grabimo-feedback)**
+**iFrame embedding demo: [http://demo.grabimo.com/?page_id=78](http://demo.grabimo.com/?page_id=78)**
 
 **Popup lightbox demo: [http://demo.grabimo.com/?page_id=66](http://demo.grabimo.com/?page_id=66)**
 
@@ -99,13 +99,15 @@ Or simply email us at: admin@grabimo.com
 == Screenshots ==
 
 1. Your customer click the "Call for Feedback" green button on your site
-2. Your customer can upload video files or simply record video with webcam
-3. Your customer can upload his/her voice files or simply record voice with built-in mic
-4. Your customer can write feedback easily in plain text too
-5. Your customer can upload photo files
-6. Embed iframe on your page
+2. Mobile multimedia upload
+3. Flash video recorder on PC web browser
+4. Flash audio recorder on PC web browser
 
 == Changelog ==
+
+=  1.2.1 =
+* tested on WP 4.1.1
+
 = 1.1.0 =
 * Created Settings submenu
 * Supported both lightbox and inline frame  

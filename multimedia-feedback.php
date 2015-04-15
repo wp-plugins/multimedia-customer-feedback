@@ -6,7 +6,7 @@
 Plugin Name: Multimedia Customer Feedback
 Plugin URI: http://www.grabimo.com
 Description: Inspire your customers to provide candid feedback in video, audio, photo, and text formats. Make it easy for business to reward customers for sharing experience, increase customer satisfaction, and improve product or service quality. 
-Version: 1.2.0
+Version: 1.2.1
 Author: Grabimo
 Author URI: http://www.grabimo.com
 License: GPLv2 or later
@@ -143,7 +143,7 @@ add_action( 'wp_enqueue_scripts', 'multimedia_feedback_files' );
 // --- create the short code, the Feedback button will dispay on webpage ---
 function multimedia_feedback_short_code() {
 	// retrieve business alias from the admin setting page, after registration at https://www.grabimo.com 
-	$businessAlias = get_option( 'multimedia_feedback_business_alias', 'example' );
+	$businessAlias = sanitize_text_field(get_option( 'multimedia_feedback_business_alias', 'example' ));
 	$width = intval(get_option( 'multimedia_feedback_button_width', 200 ));
 	$interface = get_option( 'multimedia_feedback_interface', 'button' );
 	
