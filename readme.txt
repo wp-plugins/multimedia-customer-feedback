@@ -15,9 +15,6 @@ Inspire your customers to provide feedback in video, audio, photo, and text form
 
 **Popup lightbox demo: [http://demo.grabimo.com/?page_id=66](http://demo.grabimo.com/?page_id=66)**
 
-1. **One-click YoutTube Upload**
-2. **Mobile friendly**
-
 Grabimo is a tool that facilitates business gathering customer
 feedback in multimedia formats: text, photo, audio, and video. The tool
 makes it easy for business to appreciate customer's time and effort
