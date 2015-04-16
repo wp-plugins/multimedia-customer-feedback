@@ -1,7 +1,7 @@
 === Multimedia Customer Feedback ===
 Contributors: grabimo
 Donate link: https://www.grabimo.com
-Tags: Customer Reviews, Customer Satisfaction, Customer Testimonial, Customer Feedback, Customer Retention, Video Testimonial, Survey Form, Customer Support, Contact Form, Comment Box, Suggestion Box
+Tags: Feedback, Review, Testimonial, Comment, Customer Satisfaction, Customer Testimonial, Customer Retention, Video Testimonial, Customer Support, Contact Form
 Requires at least: 3.0
 Tested up to: 4.1.1
 Stable tag: 1.2.1
